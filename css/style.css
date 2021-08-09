@@ -669,7 +669,7 @@ footer {
 }
 
 .banner-second {
-    background-image: url(../cliché1.jpg);
+    background-image: url(../img/cliché1.jpg);
     height: 30vh;
     margin-top: 200px;
     background-size: 400px 200px;
@@ -709,7 +709,7 @@ footer {
 
 @media screen and (min-width: 1023px) {
     .banner-cover {
-        background-image: url(../bg.jpg);
+        background-image: url(../img/bg.jpg);
         background-repeat: no-repeat;
         background-size: 1000px 250px;
         margin: 0;
@@ -1096,24 +1096,8 @@ footer {
     }
 }
 
-.rating-stars {
-    --w: 60px;
-    --h: calc(var(--w) / 5);
-    position: relative;
-    width: var(--w);
-    height: var(--h);
-    background: url(../img/star-empty.svg) left/var(--w) var(--h) no-repeat;
-}
 
-.rating-stars::after {
-    content: '';
-    background: url(../img/star-full.svg) left/var(--w) var(--h) no-repeat;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: var(--rating);
-    height: 100%;
-}
+
 
 .course-rating-container .rating-stars {
     --w: 90px;
